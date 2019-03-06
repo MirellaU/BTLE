@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    android:orientation="vertical"
+    tools:context=".OrthometrActivity">
+
+    <Button
+        android:id="@+id/bluetooth_on_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_on"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:padding = "15dp" />
+
+    <Button
+        android:id="@+id/bluetooth_off_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bluetooth_off"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_alignParentRight="true"
+        android:padding = "15dp" />
+
+    <Button
+        android:id="@+id/discover_devices_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/other_devices"
+        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimary"
+        android:padding = "15dp" />
+
+    <ListView
+        android:id="@+id/devicesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
